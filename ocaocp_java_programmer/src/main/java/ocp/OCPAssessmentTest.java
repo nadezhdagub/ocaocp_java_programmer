@@ -12,6 +12,7 @@ public class OCPAssessmentTest {
         d.add(new Dog(1));
         d.add(new Dog(2));
         d.add(new Dog(1));
+        //d.add(new Dog(1));
         i.add(1);
         i.add(2);
         i.add(1);
