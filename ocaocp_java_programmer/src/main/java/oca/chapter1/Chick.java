@@ -1,20 +1,20 @@
 package oca.chapter1;
 
-class Chick {
-    public Chick(){
+class Swan {
+    public Swan(){
         System.out.println("in constructors");
     }
 
-    public vois Chick() {  // not cinstructor
+    public void Chick() {  // not cinstructor
 
     }
 }
 
-public class Swan {
+public class Chick {
     int numberEggs;  //instance variable
 
     public static void main(String[] args) {
-        Swan mother = new Swan();
+        Chick mother = new Chick();
         mother.numberEggs = 1;     // set variable
         System.out.println(mother.numberEggs);      // read variable
     }

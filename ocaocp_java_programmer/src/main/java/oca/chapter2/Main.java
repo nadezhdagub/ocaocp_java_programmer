@@ -12,7 +12,7 @@ public class Main {
         System.out.print (12 % 3); // Выходы 0
 
         double x = 39.21;
-        float y = 2.1;       //x+y not compile, because of y without f - 2.1f
+       // float y = 2.1;       //x+y not compile, because of y without f - 2.1f
 
         short xx = 10;
         short yy = 3;        //xx/yy  - int
@@ -36,6 +36,7 @@ public class Main {
         short y3 = 3;
         short z3 = (short)(x3 * y3);
 
+        int hourOfDay = 2;
         if(hourOfDay < 11) {
             System.out.println("Good Morning");
         } else if(hourOfDay < 15) {
@@ -44,7 +45,7 @@ public class Main {
             System.out.println("Good Evening");
         }
 
-        System.out.println((x > y) ? 21 : "Zebra");
+        System.out.println((x > yy) ? 21 : "Zebra");
 
         int dayOfWeek = 5;
         switch(dayOfWeek) {
@@ -60,15 +61,15 @@ public class Main {
         }
 
         int count = 2;
-        int value = switch (count) {
+     /*   int value = switch (count) {
             case 1 -> 12;
             case 2 -> 32;
             case 3 -> 52;
             default -> 0;
-        };
+        };*/
 
         while(x < 10)
-            y++;
+            yy++;
 
         do {
             x++;
@@ -79,8 +80,8 @@ public class Main {
             System.out.print(i + " ");
         }
 
-        int x = 0;
-        for(long y = 0, z = 4; x < 5 && y < 10; x++, y++) {
+        int x4 = 0;
+        for(long y = 0, z = 4; x4 < 5 && y < 10; x4++, y++) {
             System.out.print(y + " ");
         }
         System.out.print(x);
