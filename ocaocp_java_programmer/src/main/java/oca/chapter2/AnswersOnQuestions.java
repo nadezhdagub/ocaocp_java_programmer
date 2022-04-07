@@ -72,6 +72,6 @@ public class AnswersOnQuestions {
         result += ++c;
         System.out.println(result);        //12
 
-        
+
     }
 }
