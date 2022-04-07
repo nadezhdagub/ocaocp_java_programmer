@@ -10,3 +10,11 @@
 ## chapter2
 - Operators and Decision Constructs
 - Loop Constructs
+
+
+## chapter3
+- == and equals()
+- Using Arrays
+- Strings, StringBuilder, ArrayList
+- calendar data using classes from java
+- Boolean, Double, and Integer
