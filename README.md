@@ -18,3 +18,8 @@
 - Strings, StringBuilder, ArrayList
 - calendar data using classes from java
 - Boolean, Double, and Integer
+
+
+## chapter4
+- Methods and Encapsulation
+- simple Lambda expression
