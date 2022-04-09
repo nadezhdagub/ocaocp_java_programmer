@@ -1,5 +1,11 @@
 package oca.chapter3;
 
+import java.sql.Array;
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.util.ArrayList;
+import java.util.Arrays;
+
 class Mutable {
     private String s;
     public void setS(String newS){ s = newS; } // Setter makes it mutable
@@ -46,5 +52,49 @@ public class Main {
         System.out.println(t1 == t1); // true
         System.out.println(t1 == t2); // false
         System.out.println(t1.equals(t2)); // false
+
+        int[] array = new int[3];
+        int[] arr = new int[] {1, 2, 3};
+        int[] ar = {12, 13, 14};
+        int [] a;
+        int arra[];
+        int ark [];
+        int c[], b;
+
+        String [] bugs = { "cricket", "beetle", "ladybug" };
+        String [] alias = bugs;
+        System.out.println(bugs.equals(alias)); // true
+        System.out.println(bugs.toString()); // [Ljava.lang.String;@160bc7c0
+
+        String[] strings = { "stringValue" };
+        Object[] objects = strings;
+        String[] againStrings = (String[]) objects;
+        //againStrings[0] = new StringBuilder(); // НЕ КОМПИЛИРУЕТСЯ
+        objects[0] = new StringBuilder(); // осторожно!
+
+        int[] number = {10, 9, 48};
+        Arrays.sort(number);
+        for (int i = 0; i < number.length; i++) {
+            System.out.println(number[i] + " ");
+        }
+
+        int[] numbers = {2,4,6,8};
+        System.out.println(Arrays.binarySearch(numbers, 2)); // 0
+        System.out.println(Arrays.binarySearch(numbers, 4)); // 1
+        System.out.println(Arrays.binarySearch(numbers, 1)); // -1
+        System.out.println(Arrays.binarySearch(numbers, 3)); // -2
+        System.out.println(Arrays.binarySearch(numbers, 9)); // -5
+
+        ArrayList list = new ArrayList<>();
+        list.add("hawk");
+        list.add(true);
+        System.out.println(list);
+
+        ArrayList<String> list2;
+
+        int primitive = Integer.parseInt("123");
+        Integer wrapper = Integer.valueOf("123");
+
+        LocalTime time1 = LocalTime.of(6, 15); // час и минута
     }
 }
