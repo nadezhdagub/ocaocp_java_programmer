@@ -2,6 +2,8 @@
 
 В этом репозитории находятся тесты и задания, решенные по книгам ocp и oca. Все задания книг разделены на каталоги.
 
+#OCA
+
 ## chapter1
  - Java Basics
  - Java Data Types
@@ -23,3 +25,18 @@
 ## chapter4
 - Methods and Encapsulation
 - simple Lambda expression
+
+
+## chapter5
+- Inheritance 
+- Abstract Classes 
+- Interfaces
+- Polymorphism 
+
+## chapter6
+- Exceptions
+- try Statement
+- Methods That Throw Exceptions
+
+
+#OCP
