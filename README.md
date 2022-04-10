@@ -2,7 +2,7 @@
 
 В этом репозитории находятся тесты и задания, решенные по книгам ocp и oca. Все задания книг разделены на каталоги.
 
-#OCA
+# OCA
 
 ## chapter1
  - Java Basics
@@ -39,4 +39,4 @@
 - Methods That Throw Exceptions
 
 
-#OCP
+# OCP
