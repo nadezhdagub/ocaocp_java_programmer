@@ -40,3 +40,21 @@
 
 
 # OCP
+
+## chapter1
+- instanceof
+- equals, hashCode, toString
+- enums
+- nested classes
+
+## chapter2
+- patterns
+
+## chapter3
+- Generics
+- Collections
+
+## chapter3
+- lambdas
+- strems
+- functional interfaces
